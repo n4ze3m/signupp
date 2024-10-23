@@ -12,14 +12,14 @@ export const Header = () => {
         </h1>
       </div>
       <div className="flex items-center space-x-6">
-        <a
+        {/* <a
           href="https://x.com/n4ze3m"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary text-sm sm:text-base hover:text-primary-dark inline-flex items-center gap-2 transition-colors"
         >
           <Twitter size={24} />
-        </a>
+        </a> */}
         <a
           href="https://github.com/n4ze3m/signupp"
           target="_blank"
@@ -28,14 +28,14 @@ export const Header = () => {
         >
           <Github size={24} />
         </a>
-        <a
+        {/* <a
           href="https://ko-fi.com/n4ze3m"
           target="_blank"
           rel="noopener noreferrer"
           className="text-green-500 text-sm sm:text-base hover:text-green-700 inline-flex items-center gap-2 transition-colors"
         >
           <DollarSign size={24} />
-        </a>
+        </a> */}
       </div>
     </header>
   );
