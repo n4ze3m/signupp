@@ -33,6 +33,7 @@ import step38 from "./data/step-38";
 import step39 from "./data/step-39";
 import step4 from "./data/step-4";
 import step40 from "./data/step-40";
+import step41 from "./data/step-41";
 import step5 from "./data/step-5";
 import step6 from "./data/step-6";
 import step7 from "./data/step-7";
@@ -84,11 +85,14 @@ export const steps = [
     step38,
     step39,
     step40,
+    step41
   ]),
   step22C,
-  step23C,
-  step24C,
-  step25C,
-  step26C,
+  ...generate([
+    step23C,
+    step24C,
+    step25C,
+    step26C,
+  ]),
   final,
 ];
